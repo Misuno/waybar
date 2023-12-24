@@ -13,8 +13,8 @@
 	"custom/arrow9",
 	"pulseaudio",
 	"custom/arrow8",
-	"network",
-	"custom/arrow7",
+        "sway/language",
+        "custom/arrow7",
 	"memory",
 	"custom/arrow6",
 	"cpu",
@@ -23,7 +23,7 @@
 	"custom/arrow4",
 	"battery",
 	"custom/arrow3",
-	"sway/language",
+        "network",	
 	"custom/arrow2",
 	"tray",
 	"clock#date",
@@ -126,13 +126,13 @@
 
     "pulseaudio": {
 	"format": "{icon} {volume}%",
-	"format-bluetooth": "{icon} {volume}%",
+	"format-bluetooth": " {icon} {volume}%",
 	"format-muted": "",
 	"format-icons": {
 	    "headphone": "",
-	    "hands-free": "",
-	    "headset": "",
-	    "phone": "",
+	    "hands-free": "",
+	    "headset": "",
+	    "Phone": "",
 	    "portable": "",
 	    "car": "",
 	    "default": ["", ""]

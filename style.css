@@ -37,11 +37,11 @@
 @define-color focused	@braqua;
 @define-color inactive	@purple;
 @define-color sound	@brpurple;
-@define-color network	@purple;
+@define-color network	@bryellow; 
 @define-color memory	@braqua;
 @define-color cpu	@green;
 @define-color temp	@brgreen;
-@define-color layout	@bryellow;
+@define-color layout	@purple;
 @define-color battery	@aqua;
 @define-color date	@black;
 @define-color time	@white;
@@ -62,8 +62,8 @@
 #waybar {
 	background: rgba(40, 40, 40, 0.8784313725); /* #282828e0 */
 	color: @white;
-	font-family: JetBrains Mono, Siji;
-	font-size: 10pt;
+	font-family: FiraCode, Siji;
+	font-size: 11pt;
 	/*font-weight: bold;*/
 }
 
@@ -162,7 +162,7 @@
 
 #network {
 	background: @network;
-	color: @white;
+	color: @black;
 }
 
 #memory {
@@ -213,12 +213,12 @@
 #custom-arrow2 {
 	font-size: 11pt;
 	color: @date;
-	background: @layout;
+	background: @network;
 }
 
 #custom-arrow3 {
 	font-size: 11pt;
-	color: @layout;
+	color: @network;
 	background: @battery;
 }
 
@@ -243,12 +243,12 @@
 #custom-arrow7 {
 	font-size: 11pt;
 	color: @memory;
-	background: @network;
+	background: @layout;
 }
 
 #custom-arrow8 {
 	font-size: 11pt;
-	color: @network;
+	color: @layout;
 	background: @sound;
 }
 
